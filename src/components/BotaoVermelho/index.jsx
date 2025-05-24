@@ -1,10 +1,8 @@
 import styles from './index.module.css';
 
-const BotaoVermelho = () => {
+const BotaoVermelho = (props) => {
   return (
-    <button className={styles.botao}>
-        Entrar
-    </button>
+    <button className={styles.botao}>{props.texto}</button>
   );
 }
 
