@@ -5,7 +5,7 @@ import Ranking from '../components/Ranking';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const animeData = [{ src: 'image/bleach-anime 1.png', alt: 'Bleach', title: 'Bleach' },
+const animeData = [{ src: 'image/bleach.png', alt: 'Bleach', title: 'Bleach' },
           { src: 'image/attack-on-titan-poster-22 1.png', alt: 'Attack on Titan', title: 'Attack on Titan' },
           { src: 'image/one-piece.png', alt: 'One Piece', title: 'One Piece' },
           { src: 'image/the-apothecary-diaries.png', alt: 'The Apothecary Diaries', title: 'The Apothecary Diaries' },

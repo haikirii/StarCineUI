@@ -1,8 +1,23 @@
 
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './index.module.css';
 
 const Header = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const navigate = useNavigate();
+
+  const handleInputChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter' && searchTerm.trim() !== '') {
+      e.preventDefault();
+      navigate(`/search?q=${encodeURIComponent(searchTerm)}`);
+    }
+  };
+
 
   return (
     <div id="container-header">
@@ -24,7 +39,14 @@ const Header = () => {
         </nav>
 
         <div className={styles['search-container']}>
-          <input type="search" placeholder="Buscar..." className={styles['search-input']} />
+          <input 
+           type="search"
+            placeholder="Buscar..."
+            value={searchTerm}
+            onChange={handleInputChange}
+            onKeyDown={handleKeyDown}
+            className={styles['search-input']}
+          />
           <img src="image/search.svg" alt="Buscar" className={styles['search-icon']} />
         </div>
 
@@ -46,7 +68,6 @@ const Header = () => {
             <a href="#">Sair</a>
           </div>
         </nav>
-
 
       </header>
     </div>
