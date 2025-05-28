@@ -1,0 +1,76 @@
+
+
+.page {
+    background-color: #10161E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding-top: 60px;
+    /* margin-top: 50px; */
+}
+
+.alinha {
+    display: flex;
+}
+
+.alinhatag{
+    margin-left: 100px;
+}
+
+.alinhaAtor{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.alinhaPremio{
+    margin-left: 100px;
+}
+.tituloElenco {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.tituloElenco::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 4px;
+  background-color: #5b1e26;
+}
+
+.favoriteButton {
+  align-items: center;
+  gap: 8px;
+  background-color: #10161E;
+  color: #ffffff;
+  padding: 8px;
+  border: 1px solid #ffffff;
+  border-radius: 18px;
+  font-size: 19px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.favoriteButton:hover {
+  background-color: #161b22;
+}
+
+.icon {
+    color: #561C24; 
+    font-size: 19px;
+}
+
+.iconStar {
+    color: #FFEA03; 
+    font-size: 19px;
+}

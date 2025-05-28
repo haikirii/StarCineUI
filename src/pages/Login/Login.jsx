@@ -5,7 +5,7 @@ import BotaoVermelho from "../../components/BotaoVermelho";
 import { FaUser, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-const Cadastro = () => {
+const Login = () => {
     return (
     <div className={styles.page}>
       <img src="/image/logo.png" alt="Logo" className={styles.logo} />
@@ -29,4 +29,4 @@ const Cadastro = () => {
   );
 }
 
-export default Cadastro;
+export default Login;
