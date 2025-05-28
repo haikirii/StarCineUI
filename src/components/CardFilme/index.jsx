@@ -5,7 +5,7 @@ const CardFilme = ({imagem, descricao, classif, titulo, categoria, ano, temporad
         <div className={styles.card}>
             <div>
                 <img src={classif} alt={descricao} className={styles.classif}/>
-                <span className={styles.titulo}>{titulo}</span>
+                <p className={styles.titulo}>{titulo}</p>
             </div>
             <div>
                 <p className={styles.tag}>{categoria} • {ano} • {temporadas}</p>

@@ -3,8 +3,10 @@ import Home from '../pages/Home';
 import Login from '../pages/Login/Login';
 import TestePage from '../pages/TestePage';
 import NotFound from '../pages/NotFound';
-import Obras from '../pages/Obras/Obras';
 import Cadastro from '../pages/Cadastro/Cadastro';
+import GameOfThrones from '../pages/GameOfThrones/GameOfThrones';
+import Arcane from '../pages/Arcane/Arcane';
+import OnePiece from '../pages/OnePiece/OnePiece';
 
 const AppRoutes = () => {
     return (
@@ -13,7 +15,9 @@ const AppRoutes = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/cadastro" element={<Cadastro />} />
-                <Route path="/obra" element={<Obras />} />
+                <Route path="/onepiece" element={<OnePiece />} />
+                <Route path="/gameofthrones" element={<GameOfThrones />} />
+                <Route path="/arcane" element={<Arcane />} />
                 <Route path="/t" element={<TestePage />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
