@@ -23,8 +23,8 @@ const Header = () => {
     <div id="container-header">
       <header className={styles.header}>
 
-        <img src="image/logo.png" alt="Logo StarCine" className={styles['logo-Starcine']} />
-
+        {/* <img src="image/logo.png" alt="Logo StarCine" className={styles['logo-Starcine']} /> */}
+        <a href="http://localhost:5173/#"> <img src="image/logo.png" alt="Logo StarCine" className={styles['logo-Starcine']} /> </a>
         <nav className={styles.dropdown}>
           <button className={styles.dropbtn}>
             <span className={styles['title-menu']}>
