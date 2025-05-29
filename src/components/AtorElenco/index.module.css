@@ -1,0 +1,29 @@
+.alinha{
+    margin-right: 60px;
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ator {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}

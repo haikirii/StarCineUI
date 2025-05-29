@@ -1,0 +1,26 @@
+.review {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+  color: #FFFFFF;
+  margin-block: 30px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.estrelas {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 4px 0;
+}
+
+.ratingNumero {
+  font-size: 14px;
+  margin-left: 4px;
+}

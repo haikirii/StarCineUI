@@ -5,6 +5,7 @@ import InputLogin from "../../components/InputLogin";
 import BotaoVermelho from "../../components/BotaoVermelho";
 import { FaUser, FaEnvelope, FaLock } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { FaBookmark } from 'react-icons/fa';
 
 const Cadastro = () => {
 
@@ -43,6 +44,7 @@ const Cadastro = () => {
   };
 
   return (
+
     <div className={styles.page}>
       <img src="/image/logo.png" alt="Logo" className={styles.logo} />
 
@@ -89,5 +91,5 @@ const Cadastro = () => {
     </div>
   );
 }
-
 export default Cadastro;
+

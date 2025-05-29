@@ -1,0 +1,27 @@
+.awardCard {
+  background-color: #561C24;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  /* padding: 15px; */
+  padding-right: 15px;
+  padding-block: 10px;
+  border-radius: 8px;
+  width: fit-content;
+
+}
+
+.awardIcon {
+  width: 60px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awardTexto p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+}
