@@ -4,7 +4,6 @@
   padding: 20px 0; 
   width: 100%; 
   text-align: center;
-  margin-top: 30px;
 }
 
 .footer-content {
@@ -19,14 +18,12 @@
 .footer-links {
   display: flex;
   gap: 30px;
-  margin-bottom: 5px;
 }
 
 .footer-link {
   color: #f0f0f0;
   text-decoration: none;
-  font-size: 1em;
-  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
 }
 
 .footer-link:hover {
@@ -34,8 +31,7 @@
 }
 
 .copyright {
-  font-size: 0.85em;
+  font-size: 0.85rem;
   color: #a0a0a0;
   margin: 0;
-  font-family: 'Arial', sans-serif;
 }

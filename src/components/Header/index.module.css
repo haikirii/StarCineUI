@@ -1,5 +1,5 @@
 .logo-Starcine {
-  margin-top: 5px;
+  margin-top: 15px;
   width: 120px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .title-menu {
-  font-family: Figtree;
+  font-family: Figtree, sans-serif;
   font-size: 1.5em;
 
 }
@@ -89,7 +89,6 @@
   color: white;
   outline: none;
   padding: 8px 15px;
-  flex-grow: 1;
 }
 
 .search-input::placeholder {
@@ -228,5 +227,6 @@
 }
 
 .turn-on i {
-  font-size: 12px;
+  font-size: 12px;
 }
+

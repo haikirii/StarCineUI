@@ -7,6 +7,12 @@ import Cadastro from '../pages/Cadastro/Cadastro';
 import GameOfThrones from '../pages/GameOfThrones/GameOfThrones';
 import Arcane from '../pages/Arcane/Arcane';
 import OnePiece from '../pages/OnePiece/OnePiece';
+import Anime from '../pages/Anime/Anime';
+import Perfil from '../pages/Perfil';
+import CategoriaAnime from '../pages/CategoriaAnime';
+import CategoriaFilme from '../pages/CategoriaFilme';
+import CategoriaSerie from '../pages/CategoriaSerie';
+
 
 const AppRoutes = () => {
     return (
@@ -15,10 +21,15 @@ const AppRoutes = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/cadastro" element={<Cadastro />} />
+                <Route path="/anime" element={<Anime />} />
                 <Route path="/onepiece" element={<OnePiece />} />
                 <Route path="/gameofthrones" element={<GameOfThrones />} />
                 <Route path="/arcane" element={<Arcane />} />
                 <Route path="/t" element={<TestePage />} />
+                <Route path="/perfil" element={<Perfil />} />
+                <Route path="/CategoriaAnime" element={<CategoriaAnime />} />
+                <Route path="/CategoriaFilme" element={<CategoriaFilme />} />
+                <Route path="/CategoriaSerie" element={<CategoriaSerie />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </BrowserRouter>

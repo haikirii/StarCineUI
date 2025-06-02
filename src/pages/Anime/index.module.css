@@ -1,0 +1,9 @@
+.page {
+    background-color: #10161E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding-top: 60px;
+}

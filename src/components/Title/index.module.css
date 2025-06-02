@@ -1,0 +1,10 @@
+.title {
+  margin: 40px 100px 20px 100px;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  text-decoration: underline;
+  text-decoration-color: #561c24;
+  text-decoration-thickness: 8px;
+  color: white;  
+  padding-top: 40px;
+}
