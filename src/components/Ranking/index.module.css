@@ -36,14 +36,7 @@
 
 .image {
     margin: 0 10px 0 10px;
-<<<<<<< HEAD
-    padding-left: 45px;
-    display: flex;
     align-self: center;
-    justify-items: center;
-=======
-    align-self: center;
->>>>>>> c2fd935a467aefaae9fd3678ac68d85c602b0e61
 }
 
 .title {
