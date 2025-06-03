@@ -9,7 +9,6 @@
   font-size: 2rem;
   color: white;
   cursor: pointer;
-  z-index: 2;
   padding: 10px;
   transition: transform 0.3s ease;
 }
@@ -34,8 +33,6 @@
 }
 
 .item {
-  flex: 0 0 auto;
-  margin-right: 10px;
   text-align: center;
 }
 
@@ -55,16 +52,36 @@
 .caption {
   margin: 0 auto;
   display: block;
-  text-align: left;
+  text-align: center;
   margin-top: 8px;
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: Figtree, sans-serif;
-  font-size: 1em;
+  font-size: 0.9rem;
   cursor: pointer;
   transition: color 0.9s ease;
 }
 
 .caption:hover {
   color: #561c24;
+}
+
+.emptyMessageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  min-height: inherit; 
+  color: #9ca3af; 
+  font-size: 1em;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.emptyIcon {
+  font-size: 2em; 
+  margin-bottom: 10px;
+  opacity: 0.5; 
 }

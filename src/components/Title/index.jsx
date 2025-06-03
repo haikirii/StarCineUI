@@ -4,7 +4,7 @@ import styles from './index.module.css';
 const Title = ({ children }) => {
   return (
     <h2 className={styles.title}>
-      <a href="#">{children}</a>
+      <a>{children}</a>
     </h2>
   );
 };

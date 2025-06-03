@@ -1,10 +1,10 @@
-
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './index.module.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
-  const [searchTerm, setSearchTerm] = useState('');
+   const [searchTerm, setSearchTerm] = useState('');
   const navigate = useNavigate();
 
   const handleInputChange = (e) => {
@@ -18,12 +18,13 @@ const Header = () => {
     }
   };
 
-
   return (
     <div id="container-header">
       <header className={styles.header}>
 
-        <img src="image/logo.png" alt="Logo StarCine" className={styles['logo-Starcine']} />
+      <Link to="/"> 
+      <img src="/image/logo.png" alt="Logo StarCine" className={styles['logo-Starcine']} />
+      </Link>
 
         <nav className={styles.dropdown}>
           <button className={styles.dropbtn}>
@@ -32,9 +33,9 @@ const Header = () => {
             </span>
           </button>
           <div className={styles['dropdown-content']}>
-            <a href="#">Animes</a>
-            <a href="#">Filmes</a>
-            <a href="#">Séries</a>
+            <Link to="/CategoriaAnime">Animes</Link>
+            <Link to="/CategoriaFilme">Filmes</Link>
+            <Link to="/CategoriaSerie">Séries</Link>
           </div>
         </nav>
 
@@ -50,10 +51,10 @@ const Header = () => {
           <img src="image/search.svg" alt="Buscar" className={styles['search-icon']} />
         </div>
 
-        <a href="#" className={styles['favoritos-link']}>
+        <div className={styles['favoritos-link']}>
           <i className={`fa-regular fa-bookmark ${styles['fav_svg']}`}></i>
-          <span className={styles['fav_title']}> Lista de Favoritos</span>
-        </a>
+          <Link to="/perfil"><span className={styles['fav_title']}> Lista de Favoritos</span></Link>
+        </div>
 
         <nav className={styles['dropdown-user']}>
           <div className={styles['icon-account']}>
@@ -64,10 +65,11 @@ const Header = () => {
           </button>
 
           <div className={styles['user-dropdown-content']}>
-            <a href="#">Perfil</a>
-            <a href="#">Sair</a>
+            <Link to="/perfil">Perfil</Link>
+            <Link to="#">Sair</Link>
           </div>
         </nav>
+
 
       </header>
     </div>

@@ -22,10 +22,10 @@ const Carousel = ({ data }) => {
       <div className={styles.container} ref={ref}>
         {data.map((item, index) => (
           <div className={styles.item} key={index}>
-            <a href={item.link || '#'}>
+            <a href={item.link || '#'}  className={styles.link}>
               <img src={item.src} alt={item.alt} />
+              <div className={styles.caption}>{item.title}</div>
             </a>
-            <a className={styles.caption}>{item.title}</a>
           </div>
         ))}
       </div>

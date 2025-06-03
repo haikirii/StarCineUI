@@ -1,5 +1,9 @@
 .logo-Starcine {
+<<<<<<< HEAD
   margin-top: 5px;
+=======
+  margin-top: 15px;
+>>>>>>> c2fd935a467aefaae9fd3678ac68d85c602b0e61
   width: 120px;
 }
 
@@ -32,7 +36,11 @@
 }
 
 .title-menu {
+<<<<<<< HEAD
   font-family: Figtree;
+=======
+  font-family: Figtree, sans-serif;
+>>>>>>> c2fd935a467aefaae9fd3678ac68d85c602b0e61
   font-size: 1.5em;
 
 }
@@ -89,7 +97,10 @@
   color: white;
   outline: none;
   padding: 8px 15px;
+<<<<<<< HEAD
   flex-grow: 1;
+=======
+>>>>>>> c2fd935a467aefaae9fd3678ac68d85c602b0e61
 }
 
 .search-input::placeholder {
@@ -120,7 +131,11 @@
 
 .fav_title {
   color: #fff;
+<<<<<<< HEAD
   font-size: 1.4em;
+=======
+  font-size: 1.3em;
+>>>>>>> c2fd935a467aefaae9fd3678ac68d85c602b0e61
   font-weight: bold;
 }
 
@@ -229,4 +244,9 @@
 
 .turn-on i {
   font-size: 12px;
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> c2fd935a467aefaae9fd3678ac68d85c602b0e61

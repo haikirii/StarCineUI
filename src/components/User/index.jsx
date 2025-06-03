@@ -2,12 +2,12 @@ import React from 'react';
 import styles from './index.module.css';
 import { FaCalendarAlt } from 'react-icons/fa';
 
-const User = ({ name, email, joinDate, img }) => {
+const User = ({ name, email, joinDate}) => {
   return (
     <div className={styles.userContainer}>
       <div className={styles.banner}></div>
       <div className={styles.userInfo}>
-        <img src="image/Avatar.png" alt="Avatar" className={styles.img} />
+        <img src={"image/Icon.png"} alt="Icon" className={styles.img} />
         <div className={styles.details}>
           <h2 className={styles.name}>{name}</h2>
           <div className={styles.info}>
