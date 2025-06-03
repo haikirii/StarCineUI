@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 
 const animeData = [{ src: 'image/bleach-anime 1.png', alt: 'Bleach', title: 'Bleach' },
           { src: 'image/attack-on-titan-poster-22 1.png', alt: 'Attack on Titan', title: 'Attack on Titan' },
-          { src: 'image/one-piece.png', alt: 'One Piece', title: 'One Piece' },
+          { src: 'image/one-piece.png', alt: 'One Piece', title: 'One Piece', link: 'onepiece' },
           { src: 'image/the-apothecary-diaries.png', alt: 'The Apothecary Diaries', title: 'Diário de uma Apotecária' },
           { src: 'image/kaiju-no-8 1.png', alt: 'Kaiju No. 8', title: 'Kaiju No. 8' },
           { src: 'image/Naruto Shippuden.png', alt: 'Naruto Shippuden', title: 'Naruto Shippuden' },
@@ -31,11 +31,11 @@ const filmeData = [{ src: 'image/the-lord-of-the-rings.png', alt: 'The Lord of t
           { src: 'image/Dune Part Two Movie Poster.png', alt: 'Dune 2', title: 'Duna 2' },
           { src: 'image/Constantine.png', alt: 'Constantine', title: 'Constantine' },];  
 
-const serieData = [{ src: 'image/Game of Thrones (2011).png', alt: 'Game of Thrones', title: 'Game of Thrones' },
+const serieData = [{ src: 'image/Game of Thrones (2011).png', alt: 'Game of Thrones', title: 'Game of Thrones', link: 'gameofthrones' },
           { src: 'image/Moonlight Mystique (1) 1.png', alt: 'Moonlight Mystique', title: 'Moonlight Mystique' },
           { src: 'image/la casa de papel 1.png', alt: 'La Casa de Papel', title: 'La Casa de Papel' },
           { src: 'image/wanda 1.png', alt: 'WandaVision', title: 'WandaVision' },
-          { src: 'image/Arcane League of Legends TV Poster 1.png', alt: 'Arcane', title: 'Arcane' },
+          { src: 'image/Arcane League of Legends TV Poster 1.png', alt: 'Arcane', title: 'Arcane', link: 'arcane' },
           { src: 'image/Frasier (1).png', alt: 'Frasier', title: 'Frasier' },
           { src: 'image/baixados (1).png', alt: 'The Handmaid\'s Tale', title: 'O Conto da Aia' },
           { src: 'image/You.png', alt: 'You', title: 'You' },

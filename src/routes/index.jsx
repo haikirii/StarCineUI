@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Login from '../pages/Login/Login';
-import TestePage from '../pages/TestePage';
 import NotFound from '../pages/NotFound';
 import Cadastro from '../pages/Cadastro/Cadastro';
 import GameOfThrones from '../pages/GameOfThrones/GameOfThrones';
@@ -25,7 +24,6 @@ const AppRoutes = () => {
                 <Route path="/onepiece" element={<OnePiece />} />
                 <Route path="/gameofthrones" element={<GameOfThrones />} />
                 <Route path="/arcane" element={<Arcane />} />
-                <Route path="/t" element={<TestePage />} />
                 <Route path="/perfil" element={<Perfil />} />
                 <Route path="/CategoriaAnime" element={<CategoriaAnime />} />
                 <Route path="/CategoriaFilme" element={<CategoriaFilme />} />
